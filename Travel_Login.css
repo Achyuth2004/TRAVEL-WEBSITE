@@ -1,0 +1,49 @@
+body{
+    font-family: cursive;
+    /*background: linear-gradient(to right, #ff512f, #f09819);
+    /*background: linear-gradient(120deg,#2980b9,#8e44ad);*/
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.centre{
+    position: relative;
+    top: 30%;
+    left: 35%;
+    width: 400px;
+    height: 310px;
+    background: whitesmoke;
+    border-radius: 5px;
+    transform: translate(-50% -50%);
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10;
+    border-bottom: 1px solid ;
+}
+input{
+    height: 38px;
+    width: 80%;
+    border-radius: 8px;
+}
+.input-field{
+    padding: 0 10 10 50;
+}
+.submit{
+    width: 200px;
+    padding-left: 89;
+   /* box-shadow: 0 0 3px cyan;*/
+}
+/*.submit:hover{
+    box-shadow: 0 0 3px cyan,
+    0 0 10px cyan,0 0 50px cyan,
+    0 0 100px cyan,0 0 200px cyan;
+
+}*/
+.forgot{
+    padding: 10 0 0 30;
+}
+.signup{
+    padding: 0 0 0 200;
+}
